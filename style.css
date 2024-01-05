@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 
-.banner .more-info {
+.banner .banner__link {
     font-family: fantasy, cursive;
 }
 
@@ -38,7 +38,7 @@ body {
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-task__row-wrapper {
     display: flex;
 }
 
@@ -161,11 +161,11 @@ ul li input[type=text] {
     display: none;
 }
 
-.edit-mode input[type=text] {
+.todo__task--edit-mode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-.edit-mode label {
+.todo__task--edit-mode label {
     display: none;
 }
