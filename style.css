@@ -53,11 +53,15 @@ h3 {
 }
 
 input,
-button {
+.edit,
+.delete,
+.add {
     outline: none;
 }
 
-button {
+.edit,
+.delete,
+.add {
     background: none;
     border: 0px;
     color: #888;
@@ -83,7 +87,7 @@ label[for="new-task"] {
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -96,7 +100,7 @@ input[type="text"] {
     color: #888;
 }
 
-input[type="text"]:focus {
+.input:focus {
     color: #333;
 }
 
@@ -115,7 +119,6 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,7 +128,8 @@ li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.todo__checkbox,
+.completed__checkbox {
     margin: 0 10px;
 }
 
